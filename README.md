@@ -19,34 +19,52 @@ emotion-to-vibe/
 ├── frontend/
 │   ├── App.jsx
 │   ├── components/
-│   │   ├── InputBox.jsx
-│   │   ├── VibePhrases.jsx
-│   │   ├── ColorPalette.jsx
-│   │   ├── Moodboard.jsx
-├── assets/
-│   └── logo.svg
-├── public/
 ├── .env
 ├── README.md
 ├── .gitignore
 ```
 
-## ✅ V1 Launch Goals
-- Beautiful landing page with input UI
-- Connect to OpenAI for vibe phrase and palette generation
-- Pull moodboard images via Unsplash API
-- Smooth and emotional UI/UX
-- Polish share/export options (coming soon)
+## 🐍 Setting Up the Python Backend (FastAPI)
 
-## 🚀 Future Features (Post-V1)
-- AI-generated room or outfit mockups
-- Spotify playlist generator based on vibe
-- “Save my Vibes” Journal (auth optional)
-- Turn vibe into a downloadable phone wallpaper
-- “Other people who felt this way…” (community layer)
+Follow these steps to get the backend running locally:
+
+```bash
+# 1. Navigate into the backend directory
+cd backend
+
+# 2. Create a virtual environment (this creates a 'venv/' folder)
+python3 -m venv venv
+
+# 3. Activate the virtual environment
+# On macOS/Linux:
+source venv/bin/activate
+
+# On Windows (Command Prompt):
+venv\Scripts\activate
+
+# 4. Install Python dependencies
+pip install -r requirements.txt
+
+# 5. Add environment variables
+cp .env.example .env
+# Then open '.env' and fill in your API keys for OpenAI and Unsplash
+
+# 6. Run the FastAPI backend server
+uvicorn app:app --reload --port 5001
+```
+
+## 🧠 Powered By
+- OpenAI API
+- Unsplash API
+- FastAPI
+- React
+- Tailwind CSS
 
 ---
 
 🤍 Attribution
 Wanted to create something that combines emotion, technology, and design. 
 As AI and technology becomes more human, we become less human. How can we bring back emotion to technology?
+
+📜 License
+MIT — feel free to use, remix, and build on it.
