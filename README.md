@@ -12,6 +12,7 @@ This is a creative playground that makes your feelings visible.
 Coming soon...
 
 ## 🛠️ Project Structure
+```text
 emotion-to-vibe/
 ├── backend/
 │   └── app.py
@@ -28,6 +29,7 @@ emotion-to-vibe/
 ├── .env
 ├── README.md
 ├── .gitignore
+```
 
 ## ✅ V1 Launch Goals
 - Beautiful landing page with input UI
