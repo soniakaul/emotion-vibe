@@ -8,11 +8,8 @@ A customized design web app that takes your mood or emotion and transforms it in
 
 This is a creative playground that makes your feelings visible.
 
----
 ## ✨ Demo
 Coming soon...
-
----
 
 ## 🛠️ Project Structure
 emotion-to-vibe/
@@ -32,18 +29,14 @@ emotion-to-vibe/
 ├── README.md
 ├── .gitignore
 
----
-
 ## ✅ V1 Launch Goals
 - Beautiful landing page with input UI
 - Connect to OpenAI for vibe phrase and palette generation
 - Pull moodboard images via Unsplash API
 - Smooth and emotional UI/UX
 - Polish share/export options (coming soon)
- 
----
 
-🚀 Future Features (Post-V1)
+## 🚀 Future Features (Post-V1)
 - AI-generated room or outfit mockups
 - Spotify playlist generator based on vibe
 - “Save my Vibes” Journal (auth optional)
