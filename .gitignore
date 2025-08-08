@@ -1,0 +1,24 @@
+# Python bytecode and cache
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+backend/venv/
+backend/env/
+backend/ENV/
+
+# Environment variables
+backend/.env
+
+# Frontend dependencies and builds
+frontend/node_modules/
+frontend/build/
+frontend/dist/
+
+# IDE/editor settings
+.vscode/
+.idea/
+
+# OS system files
+.DS_Store
+Thumbs.db
